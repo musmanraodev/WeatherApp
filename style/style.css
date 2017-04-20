@@ -1,0 +1,151 @@
+/* style needs
+
+- a media query
+- mobile-first considerations
+
+
+*/
+
+body {
+    background-color: #3d56ba;
+    background-image: url("../back.jpg");
+}
+
+.h1 {
+    font-size: 19vh;
+    color: white;
+    text-align: center;
+    margin-top: 10vh;
+}
+
+.inputbox {
+    text-align: center;
+    border-right: 0;
+    border-left: 0;
+    background: transparent;
+    border-top: 0;
+    border-bottom: 0.1vh solid white;
+    font-size: 11vh;
+    width: 63vh;
+    color: white;
+    outline: none;
+}
+
+::-webkit-input-placeholder {
+    color: white;
+    opacity: 0.3;
+}
+
+.container {
+    text-align: center;
+    margin-top: 17vh;
+}
+
+.submit {
+    background: url(../Search.jpg);
+    height: 14vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 13vh;
+    border: 0;
+    position: relative;
+    outline: none;
+    top: 4vh;
+    cursor: pointer;
+}
+
+.submit:active {
+    position: relative;
+    top: 4.2vh;
+}
+
+
+/*=============================*/
+
+.newh1 {
+    display: inline-block;
+    font-size: 9vh;
+    color: white;
+}
+
+.container,
+.newcontainer {
+    display: inline-block;
+    text-align: center;
+}
+
+.header {
+    text-align: center;
+}
+
+.newheader {
+    text-align: center;
+    opacity: 0.9;
+    padding-bottom: 2.5vh;
+    -webkit-box-shadow: 0px 1px 36px -6px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 1px 36px -6px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 1px 36px -6px rgba(0, 0, 0, 0.75);
+    width: 100%;
+}
+
+.newcontainer .inputbox {
+    text-align: center;
+    border-right: 0;
+    border-left: 0;
+    background: transparent;
+    border-top: 0;
+    border-bottom: 0.1vh solid white;
+    font-size: 8vh;
+    width: 35vh;
+    color: white;
+    outline: none;
+    margin-left: 3vh;
+}
+
+.newcontainer .submit {
+    background: url(../Search.jpg);
+    height: 9vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 9vh;
+    border: 0;
+    position: relative;
+    outline: none;
+    margin-left: 1vh;
+    top: 2vh;
+}
+
+.newcontainer .submit:active {
+    position: relative;
+    top: 2.2vh;
+}
+
+
+/*=============*/
+
+.maintemp {
+    text-align: center;
+    font-size: 29vh;
+    color: white;
+    opacity: 0.9;
+    margin-top: 8vh;
+}
+
+.mmtemp {
+    text-align: center;
+    font-size: 14vh;
+    color: white;
+    opacity: 0.8;
+}
+
+.min,
+.max {
+    display: inline-block;
+    padding: 7vh;
+    margin-left: 22vh;
+    margin-right: 22vh;
+}
+
+.alltemp {
+    display: none;
+}

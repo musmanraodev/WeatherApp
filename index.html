@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+  <meta charset='UTF-8' />
+  <meta name='viewport' content='width=device-width, initial-scale=1.0' />
+  <meta http-equiv='X-UA-Compatible' content='ie=edge' />
+  <title>Weather app!!!!!</title>
+  <link rel='stylesheet' type='text/css' href='./style/reset.css'>
+  <link rel='stylesheet' type='text/css' href='./style/style.css'>
+</head>
+
+<body>
+  <div class="header" id='header'>
+    <h1 id="h1" class="h1">
+      Weather App
+    </h1>
+    <div class="container" id='container'>
+      <form action="submit()" style="margin: 0; padding: 0;">
+        <input type="text" id="inputbox" class="inputbox" placeholder="City Name">
+        <button id="submit" class="submit"></button>
+      </form>
+    </div>
+  </div>
+  <div class="alltemp">
+    <div class="maintemp"></div>
+    <div class="mmtemp">
+      <div class="min">
+        <div class="minword">Min</div>
+        <div class="mintemp"> 23
+        </div>
+      </div>
+      <div class="max">
+        <div class="maxword">Max</div>
+        <div class="maxtemp">11</div>
+      </div>
+    </div>
+  </div>
+  <script src='./src/main.js'></script>
+</body>
+
+</html>
