@@ -1,7 +1,7 @@
 console.log('main.js is connected!');
 
 let appid = '1a41a50ea9afa8171ef556a9e33f2fe6';
-let BASE_URL = "http://api.openweathermap.org/data/2.5/weather"
+let BASE_URL = "https://api.openweathermap.org/data/2.5/weather"
 
 let inputbox = document.getElementById('inputbox');
 let submit = document.getElementById('submit');
