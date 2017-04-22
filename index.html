@@ -11,13 +11,15 @@
 </head>
 
 <body>
+      <div class="backimg"></div>
+
   <div class="header" id='header'>
     <h1 id="h1" class="h1">
       Weather App
     </h1>
     <div class="container" id='container'>
       <form action="submit()" style="margin: 0; padding: 0;">
-        <input type="text" id="inputbox" class="inputbox" placeholder="City Name">
+        <input type="text" id="inputbox" class="inputbox" placeholder="CITY / ZIP" onfocus="focusfun()" onblur="unfocusfun()">
         <button id="submit" class="submit"></button>
       </form>
     </div>
